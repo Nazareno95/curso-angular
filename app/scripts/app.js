@@ -2,15 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name myWebApp
+ * @name lesson09App
  * @description
- * # myWebApp
+ * # lesson09App
  *
  * Main module of the application.
  */
 angular
-  .module('myWebApp', [
-    'ngAnimate',
+  .module('lesson09App', [
     'ngCookies',
     'ngResource',
     'ngRoute',

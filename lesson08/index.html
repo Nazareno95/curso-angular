@@ -11,10 +11,29 @@
   <body>
     <h1>Shopping List With Components</h1>
 
+<h1>formulario</h1>
+<form class="form-inline">
+  <div class="form-group">
+    <label for="exampleInputName2">Name</label>
+    <input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail2">Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+  </div>
+<br>
+  <button class="btn btn-default" type="submit">sent invitacion</button>
+</form>
+
+
+<br>
+<br>
+<br>
+
     <div id="list" ng-controller='ShoppingListController as list'>
       <input type="text" ng-model="list.itemName" placeholder="item name">
       <input type="text" ng-model="list.itemQuantity" placeholder="quantity">
-      <button ng-click="list.addItem();">Add Item</button>
+      <button ng-click="list.addItem();">ver clima</button>
       <span>{{ list.lastRemoved }}</span>
 
       <shopping-list
