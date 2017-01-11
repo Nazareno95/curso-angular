@@ -1,6 +1,19 @@
 <lx-tabs>	
 		<lx-tab heading="Posts">
 			<div class="p+"> hola posts </div>
+				<div class="card" ng-repeat="Post in posts">
+					<div class="p+">
+						<strong class="fs-headline display-block tc-red-900">
+							{{post.body}}
+						</strong>
+					</div>
+				
+			</div>
+					<div class="card__actions">
+						<a href="#">leer mas</a>
+					</div>
+
+			</div>
 		</lx-tab>
 		
 		<lx-tab heading="Users">
